@@ -3,11 +3,21 @@
     padding: none;
     box-sizing: border-box;
 }
-
+html {
+    /* can be commented */
+    display: flex; 
+    justify-content: center;
+    /* can be commented */
+}
 #body {
     display: flex;
     justify-content: center;/*this will put the screen center horizontally*/
-    
+    /* can be commented */
+    position: absolute;
+    height: 100%;
+    max-width: 400px;
+    min-width: 300px;
+    /* can be commented */
 }
 .full-screen {
     background-color: rgb(45, 45, 194);
