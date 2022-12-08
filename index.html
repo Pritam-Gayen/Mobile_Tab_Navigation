@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Tab</title>
+    <link rel="stylesheet" href="Mobile Tab Navigation.css">
+    <script src="https://kit.fontawesome.com/b6e7f877e0.js" crossorigin="anonymous"></script>
+    <script src="code.js" defer></script>
+</head>
+<body id="body">
+    <div class="full-screen">
+        <img src="v2osk-YKpBFaS5adA-unsplash.jpg" alt="img-tree">
+        <div id="home_screen" class="screen_selected">
+            <div class="top">
+                <h3>HOME</h3>
+            </div>
+            <div id="home_area" class="middle">
+                <img onclick="changeWallpaper(this)" src="v2osk-YKpBFaS5adA-unsplash.jpg">
+                <img onclick="changeWallpaper(this)" src="57196.webp">
+                <img onclick="changeWallpaper(this)" src="fascinating-nature-mobile-0sld4om7yg1dyncj.jpg">
+                <img onclick="changeWallpaper(this)" src="wp5587985.jpg">
+            </div>
+            <div class="bottom">
+                <i class="fa-solid fa-circle-arrow-left back-button" onclick="back()"></i>
+            </div>
+        </div>
+
+        <div id="work_screen" class="screen_selected">
+            <div class="top">
+                <h3>WORK</h3>
+            </div>
+            <div id="work_area" class="middle">
+            </div>
+            <div class="bottom">
+                <i class="fa-solid fa-circle-arrow-left back-button" onclick="back()"></i>
+            </div>
+        </div>
+
+        <div id="blog_screen" class="screen_selected">
+            <div class="top">
+                <h3>BLOG</h3>
+            </div>
+            <div id="blog_area" class="middle">
+            </div>
+            <div class="bottom">
+                <i class="fa-solid fa-circle-arrow-left back-button" onclick="back()"></i>
+            </div>
+        </div>
+        <div id="aboutus_screen" class="screen_selected">
+            <div class="top">
+                <h3>ABOUT US</h3>
+            </div>
+            <div id="aboutus_area" class="middle">
+                <p>This is one Project from Newton School. From 'Home' page you can select one picture as front
+                    screen wallpaper like you do in your mobile. 'Work' page and 'Blog' page are comming soon...
+                </p>
+            </div>
+            <div class="bottom">
+                <i class="fa-solid fa-circle-arrow-left back-button" onclick="back()"></i>
+            </div>
+        </div>
+        <div class="bottom-bar-transparent"></div>
+        <div class="bottom-bar">
+            <div class="icon-holder" id="home_div">
+                <i id="home_icon" class="fa-solid fa-house-user icon"></i>
+                <p>Home</p>
+            </div>
+            <div class="icon-holder" id="work_div">
+                <i id="work_icon" class="fa-solid fa-briefcase icon"></i>
+                <p>Work</p>
+            </div>
+            <div class="icon-holder" id="blog_div">
+                <i id="blog_icon" class="fa-brands fa-bootstrap icon"></i>
+                <p>Blog</p>
+            </div>
+            <div class="icon-holder" id="aboutus_div">
+                <i id="aboutus_icon" class="fa-solid fa-people-group icon"></i>
+                <p>About Us</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
